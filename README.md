@@ -1,3 +1,7 @@
-# APOCAVID 19
+<h1 align="center">🦠 APOCAVID 19 🦠 </h1> 
 
-![](APOCAVID.gif)
+<p align="center">
+  <img src="APOCAVID.gif">
+</p>
+
+***
