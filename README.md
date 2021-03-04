@@ -34,7 +34,7 @@ Você é o único capaz de salvar a humanidade dessa catastrofe.
 - Errar mais uma pergunta depois da primeira
 - Errar a pergunta mais difícil do jogo no atalho
 - Escolher se salvar
-
+***
 ### Confira os outros projetos do Grupo 6 🎊
 - [VACIKIDS 💉](https://github.com/D20go/JogoResilia)
 - [TEJUCUPAPO 👵🤳](https://github.com/serenozin/JogoResilia)
