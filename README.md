@@ -32,6 +32,7 @@ Você é o único capaz de salvar a humanidade dessa catastrofe.
 
 - Errar a primeira pergunta
 - Errar mais uma pergunta depois da primeira
+- Escolher uma das 3 portas
 - Errar a pergunta mais difícil do jogo no atalho
 - Escolher se salvar
 ***
