@@ -6,6 +6,10 @@
 
 ***
 ### Enredo 📖
+Tudo começou em 2020, quando o mundo foi alastrado por um vírus vindo da China. As pessoas acharam que era só uma "gripezinha"e não ligaram. Bom, se você está jogando esse jogo, já imagina que coisas boas não aconteceram, né? 
+
+Você é o único capaz de salvar a humanidade dessa catastrofe. 
+
 ### Personagens 🐊
 
 - Jacarezinho
