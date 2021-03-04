@@ -24,10 +24,19 @@ Você é o único capaz de salvar a humanidade dessa catastrofe.
 - Escritório Central de Fordlândia
 
 ### Condições de Vitória 👑
+
+- Acertar pelo menos 6 perguntas
+- Pegar o atalho e acertar a pergunta mais difícil do jogo
+
 ### Condições de Derrota 👹
-### Fluxograma ⬅️ ⬆️ ⬇️
+
+- Errar a primeira pergunta
+- Errar mais uma pergunta depois da primeira
+- Errar a pergunta mais difícil do jogo no atalho
+- Escolher se salvar
+
 ### Confira os outros projetos do Grupo 6 🎊
-- [VACIKIDS](https://github.com/D20go/JogoResilia)
-- [TEJUCUPAPO](https://github.com/serenozin/JogoResilia)
-- [JACARÉ MUTANTE](https://github.com/tsffarias/JogoResilia)
+- [VACIKIDS 💉](https://github.com/D20go/JogoResilia)
+- [TEJUCUPAPO 👵🤳](https://github.com/serenozin/JogoResilia)
+- [JACARÉ MUTANTE 🐊](https://github.com/tsffarias/JogoResilia)
 
