@@ -5,25 +5,25 @@
 </p>
 
 ***
+### Enredo 📖
+### Personagens 🐊
 
-<h3 align="center">Enredo 📖</h3>
-<h3 align="center">Personagens 🐊</h3>
+- Jacarezinho
+- Zé Gotinha
+- Mutantinho
 
-<ul>
-  <li>Jacarezinho</li>
-  <li>Zé Gotinha</li>
-  <li>Mutantinho</li>
-</ul>
+### Locais 📍
 
-<h3 align="center">Locais 📍</h3>
-<ul>
-  <li>Porto Tapajós</li>
-  <li>Porto de Fordlândia</li>
-  <li>Posto de Saúde de Fordlândia</li>
-  <li>Escritório Central de Fordlândia</li>
-</ul>
+- Porto Tapajós
+- Porto de Fordlândia
+- Posto de Saúde de Fordlândia
+- Escritório Central de Fordlândia
 
-<h3 align="center">Condições de Vitória 👑</h3>
-<h3 align="center">Condições de Derrota 👹</h3>
-<h3 align="center">Fluxograma ⬅️ ⬆️ ⬇️</h3>
-<h3 align="center">Confira os outros projetos do Grupo 6 🎊</h3>
+### Condições de Vitória 👑
+### Condições de Derrota 👹
+### Fluxograma ⬅️ ⬆️ ⬇️
+### Confira os outros projetos do Grupo 6 🎊
+- [VACIKIDS](https://github.com/D20go/JogoResilia)
+- [TEJUCUPAPO](https://github.com/serenozin/JogoResilia)
+- [JACARÉ MUTANTE](https://github.com/tsffarias/JogoResilia)
+
