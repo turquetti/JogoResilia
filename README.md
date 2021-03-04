@@ -35,8 +35,10 @@ Você é o único capaz de salvar a humanidade dessa catastrofe.
 - Errar a pergunta mais difícil do jogo no atalho
 - Escolher se salvar
 ***
-### Confira os outros projetos do Grupo 6 🎊
-- [VACIKIDS 💉](https://github.com/D20go/JogoResilia)
-- [TEJUCUPAPO 👵🤳](https://github.com/serenozin/JogoResilia)
-- [JACARÉ MUTANTE 🐊](https://github.com/tsffarias/JogoResilia)
+<h2 align="center">CONFIRA OS OUTROS PROJETOS DO GRUPO 6</h1> 
+<p align="center">
+  <a href="https://github.com/D20go/JogoResilia"> VACIKIDS 💉 </a> |
+  <a href="https://github.com/serenozin/JogoResilia"> TEJUCUPAPO 👵🤳 </a> |
+  <a href="https://github.com/tsffarias/JogoResilia"> JACARÉ MUTANTE 🐊 </a>
+</p>
 
