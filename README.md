@@ -35,6 +35,10 @@ Você é o único capaz de salvar a humanidade dessa catastrofe.
 - Escolher uma das 3 portas
 - Errar a pergunta mais difícil do jogo no atalho
 - Escolher se salvar
+
+### Como jogar? 🎮
+Clone meu repositório no seu computador, ou clique [aqui](https://repl.it/talk/share/APOCAVID/126385) para jogar via Repl.it!
+
 ***
 <h2 align="center">CONFIRA OS OUTROS PROJETOS DO GRUPO 6</h1> 
 <p align="center">
