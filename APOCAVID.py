@@ -21,9 +21,7 @@ def apresentacao_jogo():
 def escolha_jogador():
     print('''
     Você está pronto para jogar?
-
     Escolha um jogador:
-
     < 1 > Jacarezinho
     < 2 > Zé Gotinha
     < 3 > Mutantinho
@@ -78,14 +76,11 @@ def enredo(jogador):
 
     print(f'''
     Você está em uma sala pequena e mal iluminada, poucos segundos depois, uma pessoa estranha se aproxima.
-
     "Agora que você chegou até aqui, preciso te explicar porque você está aqui." - Disse uma mulher de cabelos escuros.
-
     "Tudo começou em 2020, quando o mundo foi alastrado por um vírus chinês. As pessoas acharam que era só uma "gripezinha"
     e pouco ligaram, e bom, se você está jogando esse jogo, coisas boas não aconteceram, né?
     Uma pequena parte da população teve acesso às vacinas, os ricos, claro! Eles foram levados para a Nova Terra, um planeta
     um pouco longe daqui, e deixaram nós para perecer." - Disse a mulher com uma voz fraca.
-
     "Você, {jogador}, é o único capaz de salvar a humanidade dessa catastrofe. O nosso estoque de vacinas estava escasso e 
     você recebeu a última dose, você é a nossa única esperança, estamos muito fracos para conseguir jogar o 'APOCAVID'.
     Por favor, nos ajude a salvar nosso planeta." - Clamou a mulher.
@@ -110,12 +105,9 @@ def expressao_usuario(jogador):
     print(f'''
     Depois de gritar "{expressao.upper()}" inúmeras vezes sem entender onde havia se metido. {jogador} se acalmou e a mulher continuou explicando
     o que estava acontecendo...
-
     "Antes de partirem, os ricos deixaram um estoque de vacinas aqui que é capaz de salvar a todos, mas para termos acesso a elas, precisamos
     jogar o 'APOCAVID'. Porém, só se pode jogar uma vez, se você perder, todo o estoque de vacinas explode e todos morremos."
-
     "Nós estavamos há dias buscando alguém com as características ideiais para jogar o 'APOCAVID' e encontramos você."
-
     "Para começar a jogar, você precisa ir até o Porto Tapajós e entregar o passe do jogo, a partir daí, o jogo começa e não há mais como voltar.
         ''')
 
@@ -127,11 +119,10 @@ def regras_jogo():
     print('''
     'APOCAVID' é um jogo de perguntas e respostas, onde cada sala tem uma pergunta.
     O jogo só tem duas regras: 
-
         > Você não pode errar a primeira pergunta. 
         > Depois de acertar a primeira pergunta, você só pode errar duas vezes. 
         ''')
-    
+
 def local(jogador):
     linhas()
     print('INICIO DE JOGO')
@@ -165,7 +156,8 @@ def pergunta1(jogador):
     linhas()
     print("SALA 1")
     linhas()
-    print(f"DENTRO DA SALA 1, TINHA UMA GELADEIRA, {jogador} AO ABRIR O FREEZER SE DEPAROU COM UM POTE AZUL DE SORVETE.")
+    print(
+        f"DENTRO DA SALA 1, TINHA UMA GELADEIRA, {jogador} AO ABRIR O FREEZER SE DEPAROU COM UM POTE AZUL DE SORVETE.")
     linhas()
 
     print('''
@@ -176,7 +168,7 @@ def pergunta1(jogador):
         ''')
     linhas()
 
-    resposta_p1 = input("DIGITE A ALTERNATIVA CORRETA: ")
+    resposta_p1 = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_p1
@@ -193,7 +185,7 @@ def pergunta2():
         C. ABELHA
         ''')
 
-    resposta_p2 = input("DIGITE A ALTERNATIVA CORRETA: ")
+    resposta_p2 = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_p2
@@ -210,7 +202,7 @@ def pergunta3():
         C. RIO SÃO FRANCISCO
     ''')
 
-    resposta_p3 = input("DIGITE A ALTERNATIVA CORRETA: ")
+    resposta_p3 = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_p3
@@ -227,7 +219,7 @@ def pergunta4():
         C. SEGUNDO
     ''')
 
-    resposta_p4 = input("DIGITE A ALTERNATIVA CORRETA: ")
+    resposta_p4 = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_p4
@@ -253,7 +245,7 @@ def pergunta5():
         C. CÉREBRO        
             ''')
 
-    resposta_p5 = input("DIGITE A ALTERNATIVA CORRETA: ")
+    resposta_p5 = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_p5
@@ -270,8 +262,8 @@ def pergunta5_alternativa():
         B. INGLES
         C. MANDARIM
             ''')
-    
-    resposta_atalho = input("DIGITE A ALTERNATIVA CORRETA: ")
+
+    resposta_atalho = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_atalho
@@ -288,7 +280,7 @@ def pergunta6():
         C. MERCURIO
     ''')
 
-    resposta_p6 = input("DIGITE A ALTERNATIVA CORRETA: ")
+    resposta_p6 = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_p6
@@ -305,17 +297,25 @@ def pergunta7():
         C. BALEIA-AZUL DA ILHA GEÓRGIA DO SUL
     ''')
 
-    resposta_p7 = input("DIGITE A ALTERNATIVA CORRETA: ")
+    resposta_p7 = input("DIGITE A ALTERNATIVA CORRETA: ").strip().upper()
     linhas()
 
     return resposta_p7
 
-#______________________________________________________ INICIO DO JOGO _________________________________________________________________________
+def repetir():
+    pergunta_jogar_novamente = input("Jogar novamente? [S/N] ").strip().upper()
+    if pergunta_jogar_novamente == 'N':
+        return False
+    else:
+        return True
+
+# ______________________________________________________ INICIO DO JOGO _________________________________________________________________________
 
 gabarito = ['B', 'A', 'B', 'C', 'A', 'B', 'B', 'B']
-erros = 0
 
 while (True):
+    erros = 0
+
     apresentacao_jogo()
 
     jogador = escolha_jogador()
@@ -323,32 +323,41 @@ while (True):
     enredo(jogador)
 
     expressao_usuario(jogador)
-    
+
     linhas()
     print(f"    Depois de horas tentando encontrar onde era o suposto 'Porto' para iniciar o jogo, {jogador} entregou seu passe e puff... apagou.")
-    
+
     regras_jogo()
 
     local(jogador)
 
     if pergunta1(jogador) != gabarito[0]:
         print('A regra é clara! Se errar a primeira questão, já era! Você perdeu! 💀')
-        break
+        if not repetir():
+            break
+        else:
+            continue
 
     if pergunta2() != gabarito[1]:
         erros += 1
 
     if pergunta3() != gabarito[2]:
         erros += 1
-        if erros <= 2:
+        if erros == 2:
             print('A regra é clara! Se errar mais de uma pergunta, já era! Você perdeu! 💀')
-            break
+            if not repetir():
+                break
+            else:
+                continue
 
     if pergunta4() != gabarito[3]:
         erros += 1
-        if erros <= 2:
+        if erros == 2:
             print('A regra é clara! Se errar mais de uma pergunta, já era! Você perdeu! 💀')
-            break
+            if not repetir():
+                break
+            else:
+                continue
 
     print(f"Após sair da SALA 4, {jogador} entrou em um corredor que tinham 3 portas.")
     resposta = int(input("Em qual porta você quer entrar? Digite 1, 2 ou 3? "))
@@ -357,22 +366,30 @@ while (True):
         linhas()
         print('Ih... Porta errada! Sentimos muito, seu jogo termina por aqui. Você perdeu! 💀')
         linhas()
-        break
+        if not repetir():
+            break
+        else:
+            continue
+
     elif resposta == 2:
         if pergunta5_alternativa() != gabarito[5]:
-            print("Você errou a resposta! Já esperávamos, afinal, essa era a pergunta mais difícil do jogo. Você perdeu! 💀")
-            break
+            print(
+                "Você errou a resposta! Já esperávamos, afinal, essa era a pergunta mais difícil do jogo. Você perdeu! 💀")
+            if not repetir():
+                break
+            else:
+                continue
+
         else:
             linhas()
             print("   Você acertou a pergunta! Parabéns! Mas calma, agora temos mais uma pergunta para você.")
             print('''
             Você foi convidado para viver em Terra Nova (o planeta dos ricos). Porém, para aceitar o convite,
             você irá se salvar e todo o resto da humanidade irá perecer. 
-            
-            Se você salvar a humanidade, você perde a sua chance única de se juntar aos Terra Novers e continuará no seu planeta. 
 
+            Se você salvar a humanidade, você perde a sua chance única de se juntar aos Terra Novers e continuará no seu planeta. 
             E aí, qual vai ser? Agora você vai ter que escolher! 
-            
+
             ''')
 
             linhas()
@@ -381,35 +398,50 @@ while (True):
 
             if dilema == 1:
                 print('Que alegria! Você salvou a humanidade do APOCAVID! Parabéns, você venceu! 🏆')
-                break
+                if not repetir():
+                    break
+                else:
+                    continue
             else:
-                print('Terra Nova pensou melhor e voltou atrás no convite. Sentimos muito, mas você irá perecer com o resto da humanidade. Você perdeu! 💀')
-                break
+                print(
+                    'Terra Nova pensou melhor e voltou atrás no convite. Sentimos muito, mas você irá perecer com o resto da humanidade. Você perdeu! 💀')
+                if not repetir():
+                    break
+                else:
+                    continue
     else:
         if pergunta5() != gabarito[4]:
             erros += 1
-            if erros <= 2:
+            if erros == 2:
                 print('A regra é clara! Se errar mais de uma pergunta, já era! Você perdeu! 💀')
-                break
-            pass
+                if not repetir():
+                    break
+                else:
+                    continue
 
     if pergunta6() != gabarito[6]:
         erros += 1
-        if erros <= 2:
+        if erros == 2:
             print('A regra é clara! Se errar mais de uma pergunta, já era! Você perdeu! 💀')
-            break
+            if not repetir():
+                break
+            else:
+                continue
 
     if pergunta7() != gabarito[7]:
         erros += 1
-        if erros <= 2:
+        if erros == 2:
             print('A regra é clara! Se errar mais de uma pergunta, já era! Você perdeu! 💀')
-            break
-    
+            if not repetir():
+                break
+            else:
+                continue
+
     linhas()
     print("Que alegria! Você salvou a humanidade do APOCAVID! Parabéns, você venceu! 🏆")
     linhas()
-    
-    pergunta_jogar_novamente = input("Jogar novamente? [S/N] ")
-    if pergunta_jogar_novamente == 'N':
-        break
 
+    if not repetir():
+        break
+    else:
+        continue
